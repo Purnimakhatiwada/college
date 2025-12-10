@@ -1,0 +1,70 @@
+h1{
+    font-size: medium;
+    color: red;
+    background-color: plum;
+    background-image: -moz-element();
+    text-align: center;   
+    font-size: large;
+}
+#name:hover {
+    color: rgb(12, 228, 12);
+    background-color: rgb(224, 188, 133);}
+
+    #address:hover {
+    color: rgb(12, 228, 12);
+    background-color: rgb(224, 188, 133);}
+
+    #email:hover {
+    color: rgb(12, 228, 12);
+    background-color: rgb(224, 188, 133);}
+
+    #number:hover {
+    color: rgb(12, 228, 12);
+    background-color: rgb(224, 188, 133);}
+
+* ::selection{
+    background-color: rgb(149, 104, 104);
+    color: red;
+}
+#paragraph1::before{
+    content: "Nihareeka";
+    color: indigo;
+     font-size: 2em;     
+    font-weight: bold;  
+}
+.p2 {
+   text-align: center;
+   color: blue;
+
+} 
+h2{
+    text-align: center;
+    color: seagreen;
+}
+#form{
+    border: 2px solid #1E90FF; 
+    padding: 20px;             
+    border-radius: 10px;      
+    width: 100%;
+    height: 30%;
+   background-color: blueviolet;
+   text-align: center;
+   font-size: 1em;
+}
+a:visited{
+    color: aqua
+}
+#address :active{
+    color: black;
+}
+button:active {
+        background-color: #104E8B; 
+        font-size: x-large;
+        color: blueviolet;
+    }
+
+    .unorderdlist{
+        text-align: center;
+        color: rgb(24, 5, 5);
+        align-items: center;
+      }
